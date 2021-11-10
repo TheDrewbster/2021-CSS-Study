@@ -1,0 +1,163 @@
+body {
+    background-color: darkcyan;
+}
+
+.container {
+    color: black;
+    background-color: white;
+    width: 90%;
+    margin: auto;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 75px;
+    font-weight: bold;
+    font-family: "Old English Text MT";
+}
+
+
+.active {
+    background-color: darkblue;
+}
+
+#content {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Artifakt Element";
+    font-size: x-large;
+}
+#headerImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#miningImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#craftingImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#creeperImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    background-color: darkturquoise;
+}
+div#footer a{
+    color: darkblue;
+    text-decoration: none;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    font-family: "Artifakt Element";
+}
+
+.navbar a{
+    float: left;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover, .dropdown:hover .dropButton{
+    background-color: blue;
+}
+.dropdown{
+    float:left;
+    overflow: hidden;
+}
+.dropdown .dropButton{
+    font-size: 17px;
+    border:none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color:inherit;
+    font-family:inherit;
+    margin:0;
+}
+.dropdownContent{
+    display:none;
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width:160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdownContent a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align:left;
+}
+.dropdown:hover .dropdownContent{
+    display:block;
+}
+.dropdownContent a:hover{
+    background-color: #ddd;
+}
+.galleryImage{
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+    margin-bottom: 25px;
+}
+.caption{
+    text-align: center;
+    padding: 10px 20px;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 360px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 100%;
+
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-size: medium;
+}
+#mobTable{
+    margin: auto;
+
+}
